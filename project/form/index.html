@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+</head>
+<body>
+    <header>
+
+        <Div><h1>Student Registration Form</h1></Div>
+    </header>
+ <main>
+    <form action="./main.py" method="get">
+        <h2>Student Information</h2>
+        <div>
+          <input type="text" name="FirstName" placeholder="First Name">
+          <input type="text" name="MiddleName" placeholder="Middle Name">
+          <input type="text" name="LastName" placeholder="last Name">
+        </div><br>
+
+ <div>
+    <h2>Address</h2>
+    
+    <textarea name="" id="" cols="30" rows="2" placeholder="address"></textarea>
+</div>
+<section>
+    <H2>Contact Information</H2>
+    
+<div>
+    <label for="em"> Email :</label>
+    <input type="email" name="email" id="em" placeholder="xyz@.com">
+</div>
+    <br>
+    <label for="num">MOB.No :</label>
+    <input type="number" name="Mob.No" id="num">
+</section>
+
+<section>
+    <h2>Courses </h2>
+    <div>
+    <table border="1"   >
+        <tr>
+            <th>course</th>
+            <th>language</th>
+            <th>Start</th>
+
+        </tr>
+        <tr >
+            <td>
+                <select name="course">
+                    
+                       <option value="Fullstack Python">Fullstack Python</option>
+                  <option value="FullStack Java">FullStack Java</option>
+                  <option value="Devops">DEVOPS</option>
+                  <option value="FullStack .net">FullStack .NET</option>
+                  <option value="UI FullStack">UI FullStack</option>
+
+                  <option value="datascience">Datascience</option>
+                  
+            </td>
+            <td>
+                <select name="Lang" id="">
+                <option value="english">English</option>
+                <option value="Hindi">Marathi</option>
+                </select>
+            </td>
+            <td>
+                <input type="date" name="start">
+            </td>
+        </tr>
+        <tr></tr>
+    </table>
+</div> <br>
+</section>
+<button type="reset">Reset</button>
+<button type="submit">submit</button>
+</form>
+
+    </main>
+
+
+   
+</body>
+</html>
